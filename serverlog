@@ -1,0 +1,10 @@
+----- Echo Server -----
+Server Socket created. 
+ Server Socket binded. 
+ Server Socket listening. 
+ New selection for socket 1111 connection.
+Sent data to client.
+Sent data to client.
+New selection for socket 1111 connection.
+Sent data to client.
+Caught SIGINT, exiting now

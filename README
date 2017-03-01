@@ -1,0 +1,76 @@
+################################################################################
+# README                                                                       #
+#                                                                              #
+# Description: This file serves as a README and documentation for CP1 starter. #
+#                                                                              #
+# Authors: Athula Balachandran <abalacha@cs.cmu.edu>,                          #
+#          Wolf Richter <wolf@cs.cmu.edu>                                      #
+#          Eugene Bagdasaryan <ebagdasa@cs.cornell.edu>                        #
+#                                                                              #
+################################################################################
+
+
+
+
+[TOC-1] Table of Contents
+--------------------------------------------------------------------------------
+
+        [TOC-1] Table of Contents
+        [DES-2] Description of Files
+        [RUN-3] How to Run
+
+
+
+
+[DES-2] Description of Files
+--------------------------------------------------------------------------------
+
+Here is a listing of all files associated with Recitation 1 and what their'
+purpose is:
+
+                    .../README                  - Current document 
+                    .../src/echo_client.c       - Simple echo network client
+                    .../src/echo_server.c       - Simple echo network server
+                    .../src/Makefile            - Contains rules for make
+                    .../src/cp1_checker.py      - Python test script for CP1
+
+
+
+
+[RUN-3] How to Run
+--------------------------------------------------------------------------------
+
+Building and executing the echo code should be very simple:
+
+                    make
+                    ./echo_server
+                    ./echo_client localhost 9999 sample_request_example
+
+This should allow you to send a sample HTTP HEAD request to the server. If it get the correct response, the client socket will close automaticly. And the server should print parser result of HTTP header parameters.
+
+Or, you can open a browser (tested on Chrome Private and Safari), put localhost:9999 in the url filed and test the HTTP request while hosting a simple static server.
+
+If you would like to change the website root dir, simply add the root dir as running echo_server:
+                    make
+                    ./echo_server www
+                    ./echo_client localhost 9999 sample_request_example
+
+In addition, a telnet client may also be used in a similar fashion for
+communicating with the server:
+
+                    cd src
+                    make
+                    ./echo_server
+                    telnet localhost 9999
+
+The test Python script takes a series of arguments and can be run as:
+
+                    cd src
+                    make
+                    ./echo_server
+                    ./cp1_checker 127.0.0.1 9999 1000 10 2048 500
+
+with arguments as such:
+
+                    <ip> <port> <# trials> <# writes and reads per trial> \
+                    <max # bytes to write at a time> <# connections> 

@@ -1,0 +1,3 @@
+/Users/pangjac/CLionProjects/CS5450/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/pangjac/CLionProjects/CS5450/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/pangjac/CLionProjects/CS5450/cmake-build-debug/CMakeFiles/starter_code.dir

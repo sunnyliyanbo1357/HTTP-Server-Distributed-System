@@ -1,0 +1,11 @@
+GET /images/liso_header.png HTTP/1.1
+Host: localhost:9999
+Accept-Encoding: gzip, deflate
+Cookie: username-localhost-8888="2|1:0|10:1487776551|23:username-localhost-8888|44:NjliZDM0ODY1YjdlNDVlZGIwNzg3ZDU2ZDA5NTBmOWI=|66095582a486a0835f97a4142367dfbf83ea41196d83f326264ae5524344cc8c"; username-localhost-8889="2|1:0|10:1487762716|23:username-localhost-8889|44:YjRkZTg1NWYxNTRjNGMzMWE2YzliMjQ2MTc5N2I5OWQ=|c22374ca64345c8dd465e2051a716d06c71b5c9463ab0ebe48a19af53a39964c"; _xsrf=2|0267bce1|47f8b2e35e1f90104b628cc7693bc647|1487761330
+Connection: keep-alive
+Accept: */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/602.4.8 (KHTML, like Gecko) Version/10.0.3 Safari/602.4.8
+Accept-Language: en-us
+Referer: http://localhost:9999/
+Cache-Control: max-age=0
+
